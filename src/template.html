@@ -12,8 +12,8 @@
         <main>
             <div class="result">
                 <h2>Your Result</h2>
-                <div class="circle">
-                    <div class="user-score">76</div>
+                <div class="score-circle">
+                    <div class="total-score">--</div>
                     <div class="top-score">of 100</div>
                 </div>
                 <div class="info">
@@ -26,26 +26,38 @@
 
                 <div class="row">
                     <img src="./assets/images/icon-reaction.svg" alt="Image of a lightning bolt">
-                    <p class="subject">Reaction</p>
-                    <div class="score">80 <span class="top-score">/ 100</span></div>
+                    <p class="category">Reaction</p>
+                    <div>
+                        <span id="reactionScore">--</span>
+                        <span class="top-score"> / 100</span>
+                    </div>
                 </div>
 
                 <div class="row">
                     <img src="./assets/images/icon-memory.svg" alt="Image of a brain">
-                    <p class="subject">Memory</p>
-                    <div class="score">92 <span class="top-score">/ 100</span></div>
+                    <p class="category">Memory</p>
+                    <div>
+                        <span id="memoryScore">--</span>
+                        <span class="top-score"> / 100</span>
+                    </div>
                 </div>
 
                 <div class="row">
                     <img src="./assets/images/icon-verbal.svg" alt="Image of cloud with dots in it">
-                    <p class="subject">Verbal</p>
-                    <div class="score">61 <span class="top-score">/ 100</span></div>
+                    <p class="category">Verbal</p>
+                    <div>
+                        <span id="verbalScore">--</span>
+                        <span class="top-score"> / 100</span>
+                    </div>
                 </div>
 
                 <div class="row">
                     <img src="./assets/images/icon-visual.svg" alt="Image of an eye">
-                    <p class="subject">Visual</p>
-                    <div class="score">72 <span class="top-score">/ 100</span></div>
+                    <p class="category">Visual</p>
+                    <div>
+                        <span id="visualScore">--</span>
+                        <span class="top-score"> / 100</span>
+                    </div>
                 </div>
 
                 <button>Continue</button>
